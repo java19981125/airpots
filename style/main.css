@@ -1,0 +1,412 @@
+@font-face {
+   font-family: "montserrat";
+   src: url("../fonts/Montserrat-Bold.ttf");
+   font-weight: 700;
+}
+@font-face {
+   font-family: "montserrat";
+   src: url("../fonts/Montserrat-Regular.ttf");
+   font-weight: 400;
+}
+@font-face {
+   font-family: "prosto one";
+   src: url("../fonts/ProstoOne-Regular.ttf");
+   font-weight: 400;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "montserrat";
+}
+body {
+   background: #151515;
+}
+.navbar {
+   width: 100%;
+   min-height: 50px;
+   background: #282828;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.navbar-nav {
+   width: 1110px;
+   min-height: 40px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.navbar-nav-logo img {
+   width: 100px;
+   height: 53px;
+   padding: 6px 15px;
+}
+.navbar-menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.navbar-nav-list {
+   list-style: none;
+   display: flex;
+}
+.navbar-nav-list a {
+   text-decoration: none;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: right;
+   font-weight: 700;
+   color: #ffffff;
+   padding: 20px 15px;
+}
+.navbar-nav-list a:hover {
+   color: yellow;
+   transform: translateX(45deg);
+}
+.left {
+   display: flex;
+   justify-content: flex-start;
+}
+.left img {
+   width: 20px;
+   margin-right: 25px;
+   display: flex;
+}
+.left .shop {
+   height: 20px;
+   width: 17px;
+}
+.header {
+   min-height: 600px;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%),
+      url("../images/header.jpg") no-repeat center center / cover;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.header h3 {
+   font-family: "prosto one";
+   font-weight: 400;
+   font-size: 100px;
+   line-height: 75px;
+   color: #ffffff;
+}
+.header button {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #171718;
+   padding: 13px 0 13px 14px;
+   border-radius: 10px;
+   border: none;
+   margin-top: 38px;
+   transition: 1s;
+}
+.header button:hover{
+   background-color:  crimson;
+   color: yellow;
+   transition: 1s;
+}
+.header button img {
+   width: 16px;
+   height: 15px;
+   margin: 0 11px;
+}
+.section {
+   text-align: center;
+   background: #151515;
+   margin: 30px 0 55px;
+}
+.section .box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.box .airdots {
+   width: 552px;
+}
+.box .one {
+   text-align: start;
+   width: 538px;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 27px;
+   color: #ffffff;
+   margin-right: 30px;
+}
+.box .black {
+   width: 457px;
+}
+.box .two {
+   width: 540px;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 27px;
+   color: #ffffff;
+   text-align: start;
+   margin-left: 87px;
+}
+.box .white {
+   width: 268px;
+   margin: 0 14px;
+}
+.box .three {
+   width: 333px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: #ffffff;
+   text-align: start;
+   margin-left: 11px;
+}
+.box .four {
+   width: 333px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: #ffffff;
+   text-align: end;
+   margin-right: 13px;
+}
+.box span {
+   width: 61px;
+   border: 1px solid #c4c4c4;
+}
+.main-card {
+   width: 1110px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   align-items: center;
+   margin-bottom: 55px;
+}
+.main-card .card {
+   width: 255px;
+   height: 312px;
+   background: #ffffff;
+   transition: 1s;
+}
+.card h2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: #000000;
+   margin: 15px 0 10px;
+}
+.card img {
+   height: 167px;
+}
+.card h6{
+   font-weight: 400;
+   font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #000000;
+margin: 10px 0 20px;
+}
+.card button{
+   font-weight: 700;
+   background: #151515;
+   font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 7px 57px;
+border: none;
+}
+.card button:hover{
+   background-color: violet;
+   color: green;
+}
+.card:hover{
+   transform: scale(1.2);
+   transition: 1s;
+}
+.footer{
+   width: 100%;
+   min-height: 215px;
+   background: #282828;
+}
+.footer .left img {
+   width: 70px;
+   margin-right: 29px;
+   display: flex;
+}
+.footer .navbar-nav{
+   padding: 80px 0;
+}
+@media screen and (max-width:667px) {
+   .navbar-nav {
+      width: 100%;
+      min-height: 40px;
+      align-items: center;
+      justify-content: flex-start;
+   }
+   .navbar-nav .navbar-menu .navbar-nav-logo {
+      width: 100px;
+   }
+   .navbar-nav .navbar-menu .navbar-nav-logo img{
+      box-sizing: border-box;
+      padding: 6px 8px;
+   }
+   .navbar-nav-list a {
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: right;
+      font-weight: 700;
+      color: #ffffff;
+      padding: 20px 12px;
+   }
+   .left {
+      display: flex;
+      justify-content: flex-start;
+   }
+   .left img {
+      width: 15px;
+      display: flex;
+      margin-right: 10px;
+   }
+   .left .shop {
+      height: 15px;
+      width: 12,75px;
+   }
+   .header {
+      min-height: 238px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%),
+         url("../images/header.jpg") no-repeat center center / cover;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .header h3 {
+      font-family: "prosto one";
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 75px;
+      color: #ffffff;
+   }
+   .header button {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #171718;
+      padding: 6px 0 8px 9px;
+      border-radius: 10px;
+      border: none;
+      margin: 0;
+      transition: 1s;
+   }
+   .section {
+      text-align: center;
+      background: #151515;
+      margin: 30px 0 55px;
+   }
+   .section .box {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+   }
+   .box .img{
+      width: 300px;
+   }
+   .box .text{
+      width: 350px;
+      font-size: 22px;
+      font-weight: 500;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .box span {
+      display: none;
+   }
+   .main-card {
+      width: 100%;
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 55px;
+   }
+   .main-card .card {
+      margin: auto;
+      width: 252px;
+      height: 312px;
+   }
+   .card h2 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+      margin: 15px 0 10px;
+   }
+   .card img {
+      height: 167px;
+   }
+   .card h6{
+      font-weight: 400;
+      font-size: 14px;
+   line-height: 17px;
+   text-transform: uppercase;
+   color: #000000;
+   margin: 10px 0 20px;
+   }
+   .card button{
+      font-weight: 700;
+      background: #151515;
+      font-size: 16px;
+   line-height: 20px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding: 7px 57px;
+   border: none;
+   }
+   .card button:hover{
+      background-color: violet;
+      color: green;
+   }
+   .card:hover{
+      transform: scale(1.2);
+      transition: 1s;
+   }
+   .footer .navbar-nav {
+      padding-top: 20px;
+      width: 100%;
+      min-height: 40px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   .footer .navbar-nav .navbar-menu .navbar-nav-logo {
+      width: 100px;
+   }
+   .footer .navbar-nav .navbar-menu .navbar-nav-logo img{
+      box-sizing: border-box;
+      padding: 6px 8px;
+   }
+   .footer .navbar-nav-list a {
+     
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #ffffff;
+   }
+   .footer .navbar-nav-list{
+      display: block;
+   }
+   .footer .left {
+      display: block;
+   }
+   .footer .left img {
+      width: 50px;
+      display: block;
+      margin-bottom: 10px;
+   }
+}
